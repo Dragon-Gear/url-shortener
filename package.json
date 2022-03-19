@@ -1,12 +1,12 @@
 {
-  "name": "url-shortener",
+  "name": "urlshortener",
   "version": "1.0.0",
-  "description": "A custom url shortener built using Mongo, Express and Node",
+  "description": "Url shortener Made by DragonGear",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Anant Mathur",
+  "author": "Sanay George Varghese",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",

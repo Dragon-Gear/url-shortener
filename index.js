@@ -4,13 +4,13 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
 // Config variables
-require("dotenv").config();
-const { MONGOURI } = process.env;
+const { MONGOURI } =
+  "mongodb+srv://dgh4cker:cluster944@urlshortner.mgymc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 //Connecting to the database
 mongoose.promise = global.Promise;
 mongoose.connect(
-  MONGOURI,
+  "mongodb+srv://dgh4cker:cluster944@urlshortner.mgymc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
